@@ -28,6 +28,6 @@ ms_bert_base.ckpt is the pretraining model of mindspore bert, you could runing t
 ``` bash
 python convert_params.py
 ```
-if you want to train on GPU, just change context.set_context(mode=context.GRAPH_MODE, device_target='Ascend') in the run_dst.py to 'GPU'.
+if you want to train on GPU, just change `context.set_context(mode=context.GRAPH_MODE, device_target='Ascend')` in the `run_dst.py` to 'GPU'.
 
 
