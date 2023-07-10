@@ -1,10 +1,9 @@
 # TripPy mindspore 复现
 # TripPy based on mindspore
-原论文地址: https://arxiv.org/pdf/2005.02877.pdf
 
 Source paper: https://arxiv.org/pdf/2005.02877.pdf
 
-How to run (运行指南):
+How to run:
 ``` bash
 # install pytorch, transformers and mindspore
 pip install pytorch
@@ -24,8 +23,8 @@ python metric_bert_dst.py
 ```
 
 -----
-The caches are created by the TripPy original code, we only provide MultiWOZ2.1 caches.
-ms_bert_base.ckpt is the pretraining model of mindspore bert, you could runing the following command to convert pytoch checkpoint to mindspore checkpoint.
+The caches are created by the TripPy original code, we only provide MultiWOZ2.1 caches [https://gitee.com/lifancong/trip-py-mindspore](https://gitee.com/lifancong/trip-py-mindspore).
+ms_bert_base.ckpt is the pretraining model of mindspore bert, you could runing the following command to convert pytoch checkpoint to mindspore checkpoint. 
 ``` bash
 python convert_params.py
 ```
